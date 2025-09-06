@@ -8,12 +8,12 @@ class paddle
     {
         if (Raylib.IsKeyDown(KeyboardKey.W))
         {
-            Y -= 0.5f;
+            Y -= 0.2f;
             rect.Y = Y;
         }
         if (Raylib.IsKeyDown(KeyboardKey.S))
         {
-            Y += 0.5f;
+            Y += 0.2f;
             rect.Y = Y;
         }
         if (Y > 400)

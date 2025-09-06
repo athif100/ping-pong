@@ -20,3 +20,4 @@ C:\Users\A Z M I Y A\Desktop\c#game\obj\Debug\net9.0\refint\c#game.dll
 C:\Users\A Z M I Y A\Desktop\c#game\obj\Debug\net9.0\c#game.pdb
 C:\Users\A Z M I Y A\Desktop\c#game\obj\Debug\net9.0\c#game.genruntimeconfig.cache
 C:\Users\A Z M I Y A\Desktop\c#game\obj\Debug\net9.0\ref\c#game.dll
+C:\Users\A Z M I Y A\Desktop\c#game\obj\Debug\net9.0\c#game.sourcelink.json

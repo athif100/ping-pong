@@ -5,7 +5,7 @@ class pong_ball
     public float Y;
     public float speedX;
     public float speedY;
-    public void moveball()
+    public void moveball(ref int computescore,ref int playerscore)
     {
         //Moving the ball
         X += speedX * Raylib.GetFrameTime();
@@ -22,11 +22,13 @@ class pong_ball
         }
         if (X > 750)
         {
+            playerscore += 1;
             speedX = -speedX;
 
         }
         if (X < 50)
         {
+            computescore += 1;   
             speedX = -speedX;
         }
     }
